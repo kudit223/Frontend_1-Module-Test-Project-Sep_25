@@ -46,6 +46,9 @@ body{
     background-color: #e0d7c3;
     border-radius: 30px;
 }
+#firstcardimg{
+    border-radius: 30px;
+}
 #secondcard{
     background-color: #8f8868;
     border-radius: 30px;
@@ -57,4 +60,15 @@ body{
     border: 1px solid;
     border-radius: 30px;
     padding: 1px 2px;
+}
+#thirdcard{
+    background-color: #966b54;
+    border-radius: 30px;
+}
+#thirdcardimg{
+    border-radius: 30px;
+}
+#portrait{
+    font-size: 60px;
+    font-weight: bold;
 }
