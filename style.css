@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #1a1c19;
+    margin: 10px 30px;
+
+}
+/*---------------------------------------- Nav */
+#navbar-logo{
+    background-color: #333023;
+    color:#e0d7c3;
+    text-decoration: none;
+
+}
+.navbar-inner{
+    border:1px solid #e0d7c3;   
+}
+.menu{
+    border:1px solid #e0d7c3;
+    background-color: #1a1c19;
+    color:#e0d7c3;
+}
+.menu:hover{
+    background-color: #e0d7c3;
+    color:#1a1c19;
+}
+.middle{
+    border: 1px solid #e0d7c3;
+    text-align: center;
+    text-decoration: none;
+    color: #e0d7c3;
+}
+.middle:hover{
+    background-color: #e0d7c3;
+    color: #1a1c19;
+}
