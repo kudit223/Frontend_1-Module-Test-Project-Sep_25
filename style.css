@@ -143,3 +143,10 @@ body {
 #thirdcard:hover .underline-anim::after {
     width: 100%;
 }
+.circle{
+    background-color: #332314;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
