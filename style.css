@@ -72,3 +72,15 @@ body{
     font-size: 60px;
     font-weight: bold;
 }
+#forthcard{
+    background-color: #b5a38d;
+    border-radius: 30px;
+}
+.forthcardhr{
+    border:2px solid #332314;
+    margin-top: 5px;
+}
+.mx-n1 {
+    margin-left:-1.50rem !important;
+    margin-right:-1.50rem !important;
+  }
