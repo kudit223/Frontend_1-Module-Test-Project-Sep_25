@@ -1,86 +1,145 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
-*{
+* {
     padding: 0px;
     margin: 0px;
-    color:#332314;
+    color: #332314;
 }
-body{
+
+body {
     background-color: #1a1c19;
     margin: 10px 30px;
 
 }
+
 /*---------------------------------------- Nav */
-#navbar-logo{
+#navbar-logo {
     background-color: #333023;
-    color:#e0d7c3;
+    color: #e0d7c3;
     text-decoration: none;
 
 }
-.navbar-inner{
-    border:1px solid #e0d7c3;   
+
+.navbar-inner {
+    border: 1px solid #e0d7c3;
 }
-.menu{
-    border:1px solid #e0d7c3;
+
+.menu {
+    border: 1px solid #e0d7c3;
     background-color: #1a1c19;
-    color:#e0d7c3;
+    color: #e0d7c3;
 }
-.menu:hover{
+
+.menu:hover {
     background-color: #e0d7c3;
-    color:#1a1c19;
+    color: #1a1c19;
 }
-.middle{
+
+.middle {
     border: 1px solid #e0d7c3;
     text-align: center;
     text-decoration: none;
     color: #e0d7c3;
 }
-.middle:hover{
+
+.middle:hover {
     background-color: #e0d7c3;
     color: #1a1c19;
 }
+
 /* ------------------------------firstcard */
-#firstcard{
+#firstcard {
     background-color: #e0d7c3;
     border-radius: 30px;
 }
-#firstcardimg{
-    border-radius: 30px;
-}
-#secondcard{
+
+#secondcard {
     background-color: #8f8868;
     border-radius: 30px;
 }
-#secondcardimg{
+
+#secondcardimg {
     border-radius: 30px;
 }
-.card-top-span{
+
+.card-top-span {
     border: 1px solid;
     border-radius: 30px;
     padding: 1px 2px;
 }
-#thirdcard{
+
+#thirdcard {
     background-color: #966b54;
     border-radius: 30px;
 }
-#thirdcardimg{
+
+#thirdcardimg {
     border-radius: 30px;
 }
-#portrait{
+
+#portrait {
     font-size: 60px;
     font-weight: bold;
 }
-#forthcard{
+
+#forthcard {
     background-color: #b5a38d;
     border-radius: 30px;
 }
-.forthcardhr{
-    border:2px solid #332314;
+
+.forthcardhr {
+    border: 2px solid #332314;
     margin-top: 5px;
 }
+
 .mx-n1 {
-    margin-left:-1.50rem !important;
-    margin-right:-1.50rem !important;
-  }
+    margin-left: -1.50rem !important;
+    margin-right: -1.50rem !important;
+}
+
+.img-container {
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.img-container img {
+    width: 100%;
+    transition: transform 0.4s ease;
+}
+
+#firstcard:hover img {
+    transform: scale(1.1);
+}
+
+#secondcard:hover img {
+    transform: scale(1.1);
+}
+
+#thirdcard:hover img {
+    transform: scale(1.1);
+}
+
+#forthcard:hover img {
+    transform: scale(1.1);
+}
+
+.underline-anim {
+    position: relative;
+    display: inline-block;
+}
+
+.underline-anim::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #332314;
+    transition: width 0.3s ease;
+}
+
+#thirdcard .underline-anim:hover::after {
+    width: 100%;
+}
