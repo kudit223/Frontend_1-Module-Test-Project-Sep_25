@@ -140,6 +140,6 @@ body {
     transition: width 0.3s ease;
 }
 
-#thirdcard .underline-anim:hover::after {
+#thirdcard:hover .underline-anim::after {
     width: 100%;
 }
